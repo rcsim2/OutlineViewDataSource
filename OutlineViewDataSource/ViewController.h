@@ -25,6 +25,8 @@ IBOutlet NSOutlineView *_sidebarOutlineView;
 // Must we really line up programmatically?
 // NONO: we can use a combination of Row Height 16 and Cell Spacing Height 3 to get Finder-like rows,
 // neatly lined up.
+// Ah, we take it back, IB rules:
+// https://stackoverflow.com/questions/47480788/nsoutlineview-disclosure-triangle-vertically-off-center
 
 
 @end
